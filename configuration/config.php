@@ -15,7 +15,7 @@ define('HTTP_SERVER', $_SERVER['REQUEST_URI']);
 //define('DIR_DOWNLOAD', DIR_STORAGE . 'download/');
 
 // DB
-define('DB_HOSTNAME', 'localhost');
+define('DB_HOSTNAME', gethostname());
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'creative');
