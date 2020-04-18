@@ -7,7 +7,7 @@
  */
 
 // HTTP SERVER LOCATION
-define('HTTP_SERVER', 'http://localhost/creative/');
+define('HTTP_SERVER', $_SERVER['REQUEST_URI']);
 
 // DIRECTORIES
 
